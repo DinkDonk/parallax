@@ -487,7 +487,11 @@
 
       // Set Input
       this.ix = x;
+      if(y < 0) y = 0;
       this.iy = y;
+
+      //console.log('x: ' + x);
+      //console.log('y: ' + y);
     }
   };
 
