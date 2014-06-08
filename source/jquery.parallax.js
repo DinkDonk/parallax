@@ -435,6 +435,7 @@
 
       // Set Input
       this.ix = x;
+      if(y < 0) y = 0;
       this.iy = y;
     }
   };
